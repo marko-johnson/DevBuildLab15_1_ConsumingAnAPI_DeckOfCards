@@ -1,0 +1,21 @@
+﻿@model Root
+@{
+    ViewData["Title"] = "generateNewDeckID";
+}
+
+<h1>generateNewDeck</h1>
+
+<div>Success: @Model.success</div>
+<div>
+    <a href="/home/generateNewDeckID?deck_id=@Model.deck_id">@Model.deck_id</a>
+</div>
+<div>Remaining Cards: @Model.remaining</div>
+<div>Shuffled: @Model.shuffled</div>
+
+
+
+
+
+
+
+

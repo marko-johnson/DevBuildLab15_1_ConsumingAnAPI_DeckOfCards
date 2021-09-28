@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to House of Cards</h1>
+
+    <h5>Please enter number of decks you need:</h5>
+    <form method="post" action="/home/generateNewDeckID">
+        Number of decks: <input type="number" name="numOfDecks" />
+        <input type="submit" value="Search" />
+    </form>
+
+
+</div>
